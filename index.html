@@ -23,6 +23,7 @@
                     colors: {
                         clifford: '#da373d',
                         'btn-primary-bg': '#FF4240',
+                        'primary-color': '#424247',
                     }
                 }
             }
@@ -46,22 +47,22 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-bold">
-                            <li><a>Home</a></li>
-                            <li><a>About</a></li>
-                            <li><a>Pages</a></li>
-                            <li><a>Blog</a></li>
-                            <li><a>Contact</a></li>
+                            <li class="text-btn-primary-bg"><a>Home</a></li>
+                            <li class="text-primary-color"><a>About</a></li>
+                            <li class="text-primary-color"><a>Pages</a></li>
+                            <li class="text-primary-color"><a>Blog</a></li>
+                            <li class="text-primary-color"><a>Contact</a></li>
                         </ul>
                     </div>
                     <a class=" font-extrabold text-4xl">Hockey’s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 font-bold">
-                        <li><a>Home</a></li>
-                        <li><a>About</a></li>
-                        <li><a>Pages</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact</a></li>
+                        <li class="text-btn-primary-bg"><a>Home</a></li>
+                        <li class="text-primary-color"><a>About</a></li>
+                        <li class="text-primary-color"><a>Pages</a></li>
+                        <li class="text-primary-color"><a>Blog</a></li>
+                        <li class="text-primary-color"><a>Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
@@ -69,9 +70,137 @@
                 </div>
             </div>
         </nav>
-
+        <!--banner section-->
+        <section class="mt-12">
+            <div class="carousel w-full lg:h-[550px]">
+                <!-- slide1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2  -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide  3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main class="container mx-auto">
+        <!-- Professional Hockeys section -->
+        <section class="mt-32">
+            <h1 class="font-extrabold text-3xl lg:text-4xl text-center mb-6">Professional Hockeys Club</h1>
+            <p class="text-center font-medium text-[#131318]">The Toronto Professional Hockey Club was a professional
+                ice hockey team in Toronto, <br> Ontario, Canada. It was Toronto's first professional ice hockey team.
+            </p>
+            <!-- progressbar container -->
+            <div class="mt-20 grid grid-cols-1 lg:grid-cols-4  gap-8 ml-8">
+                <!-- progressbar 1 -->
+                <div>
+                    <div class="radial-progress mb-6 ml-32 lg:ml-24" style="--value:87;" role="progressbar">87%</div>
+                    <h2 class="text-center font-semibold text-xl mb-4">Prayer Facility</h2>
+                    <p class="text-center text-[#131318]">Increasingly, airports around the world are becoming hubs </p>
+                </div>
+                <!-- progressbar 2 -->
+                <div>
+                    <div class="radial-progress mb-6 ml-32 lg:ml-24" style="--value:95;" role="progressbar">95%</div>
+                    <h2 class="text-center font-semibold text-xl mb-4">Experienced Coach</h2>
+                    <p class="text-center text-[#131318]">The differences between a good coach and a great one may be
+                        subtle</p>
+                </div>
+                <!-- progressbar 3 -->
+                <div>
+                    <div class="radial-progress mb-6 ml-32 lg:ml-24" style="--value:90;" role="progressbar">90%</div>
+                    <h2 class="text-center font-semibold text-xl mb-4">Senior Player</h2>
+                    <p class="text-center text-[#131318]">It’s not uncommon to find news reports documenting abuse,
+                        violence and racism in hockey.</p>
+                </div>
+                <!-- progressbar4 -->
+                <div>
+                    <div class="radial-progress mb-6 ml-32  lg:ml-24" style="--value:80;" role="progressbar">80%</div>
+                    <h2 class="text-center font-semibold text-xl mb-4">Training Ground</h2>
+                    <p class="text-center text-[#131318]">This research aims to create a recovery model in PON hockey
+                        athletes in South Sulawesi .</p>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- Program Sections -->
+        <section class="mt-32">
+            <h2 class="font-extrabold text-3xl lg:text-4xl text-center mb-6">Program Sections</h2>
+            <p class="text-center font-medium text-[#131318] mb-20">The Toronto Professional Hockey Club was a
+                professional ice hockey team in Toronto, <br>Ontario, Canada. It was Toronto's first professional ice
+                hockey team.</p>
+            <!-- card container -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <!-- card 1  -->
+                <div class="hero rounded-2xl h-[338px]" style="background-image: url(Images/2.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                    <div class="hero-content  text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-3xl font-extrabold">Junior Program</h1>
+                            <p class="mb-5 font-medium">Field hockey, outdoor game played by two opposing teams of 11
+                                players each who use sticks curved at the striking end to hit a small, hard ball into
+                                their opponent’s goal.</p>
+                            <button class="btn bg-btn-primary-bg text-white border-none">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="hero rounded-2xl" style="background-image: url(Images/3.png);">
+                    <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                    <div class="hero-content  text-neutral-content">
+                        <div class="max-w-md">
+                            <h1 class="mb-5 text-3xl font-extrabold ">Junior Program</h1>
+                            <p class="mb-5 font-medium ">Field hockey, outdoor game played by two opposing teams of 11
+                                players each who use sticks curved at the striking end to hit a small, hard ball into
+                                their opponent’s goal.</p>
+                            <button class="btn bg-btn-primary-bg text-white border-none ">Register Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card-full 3 -->
+            <div class="hero rounded-2xl mt-6 lg:h-[450px]" style="background-image: url(Images/4.png);">
+                <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
+                <div class="hero-content  text-neutral-content">
+                    <div class="max-w-md ">
+                        <h1 class="mb-5 text-3xl font-extrabold lg:-ml-80">Professional Program</h1>
+                        <p class="mb-5 font-medium lg:-ml-80">Field hockey, outdoor game played by two opposing teams of 11
+                            players each who use sticks curved at the striking end to hit a small, hard ball into
+                            their opponent’s goal.</p>
+                        <button class="btn bg-btn-primary-bg text-white border-none lg:-ml-80 ">Register Now!</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our New Products -->
+        <section class="mt-32">
+
+        </section>
 
     </main>
     <footer>
